@@ -1,0 +1,20 @@
+th, td{
+    text-align: center;
+    padding: 1px;
+}
+
+tr{
+    border: 1px solid #dddddd;
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+.smart-scroll::-webkit-scrollbar{
+    width: 5px;
+}
+
+.smart-scroll::-webkit-scrollbar-thumb{
+    background-color: #bbb;
+}
